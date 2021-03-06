@@ -1,4 +1,6 @@
-# Fabric Example Mod
+# Fabmap
+
+[![build](https://github.com/MrFrydae/Fabmap/actions/workflows/build.yml/badge.svg)](https://github.com/MrFrydae/Fabmap/actions/workflows/build.yml)
 
 ## Setup
 
