@@ -1,8 +1,8 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.fabricmc.example.mixin",
-  "compatibilityLevel": "JAVA_8",
+  "package": "dev.frydae.fabmap.Fabmap",
+  "compatibilityLevel": "JAVA_11",
   "mixins": [
   ],
   "client": [

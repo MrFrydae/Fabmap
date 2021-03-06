@@ -1,37 +1,34 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "fabmap",
   "version": "${version}",
-
-  "name": "Example Mod",
+  "name": "Fabmap",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "MrFrydae"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "comment": "Change homepage when releases of the mod are actually made, to Modrinth",
+    "homepage": "https://github.com/MrFrydae/Fabmap",
+    "sources": "https://github.com/MrFrydae/Fabmap",
+    "issues": "https://github.com/MrFrydae/Fabmap/issues"
   },
-
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
-
-  "environment": "*",
+  "license": "LGPL-v3-only",
+  "icon": "assets/icon.png",
+  "environment": "client",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "dev.frydae.fabmap.Fabmap"
     ]
   },
-  "mixins": [
-    "modid.mixins.json"
-  ],
-
+  "mixins": ["fabmap.mixins.json"],
+  "jars": [{ "file": "assets/nested/autoconfig1u-3.3.1.jar" }],
   "depends": {
     "fabricloader": ">=0.7.4",
     "fabric": "*",
     "minecraft": "1.16.x"
   },
   "suggests": {
-    "another-mod": "*"
+    "modmenu": "*"
   }
 }
